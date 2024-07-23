@@ -1,4 +1,3 @@
-/*
 module "eks" {
 
   source  = "terraform-aws-modules/eks/aws"
@@ -38,4 +37,3 @@ module "eks" {
     }
   }
 }
-*/

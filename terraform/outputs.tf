@@ -1,4 +1,3 @@
-/*
 output "cluster_name" {
   description = "Amazon Web Service EKS Cluster Name"
   value       = module.eks.cluster_name
@@ -20,4 +19,3 @@ output "cluster_security_group_id" {
   value       = module.eks.cluster_security_group_id
 }
 
-*/

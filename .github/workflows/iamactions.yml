@@ -48,3 +48,7 @@ jobs:
         - name: Terraform Plan
           id: plan
           run: terraform plan -out=planout
+
+        - name: Terraform apply
+          id: apply
+          run: terraform apply -auto-approve "planout"

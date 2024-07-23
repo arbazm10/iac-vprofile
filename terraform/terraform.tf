@@ -25,13 +25,13 @@ terraform {
       version = "~> 2.23.0"
     }
   }
-
+/*
   backend "s3" {
     bucket = "terra-ps-arbaz1234"
     key    = "terraform"
     region = "us-east-1"
   }
-
+*/
 
 }
 ##

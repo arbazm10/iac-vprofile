@@ -6,7 +6,7 @@ on:
       - stage
     paths:
       - terraform/**
-  pull_requests:
+  pull_request:
     branches:
       - main
     paths:
@@ -19,7 +19,7 @@ env:
   AWS_REGION: us-east-1
   EKS_CLUSTER: mypsgitops-eksclusteraz
 
-  jobs:
+jobs:
     terraform:
       name: "Apply Terraform code changes"
       runs-on: ubuntu-latest
@@ -56,4 +56,4 @@ env:
         - name: Terraform plan status
           if: steps.plan.outcome == 'failure'
           run: exit 1
-          
+

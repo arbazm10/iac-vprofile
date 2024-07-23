@@ -7,5 +7,5 @@ variable "region" {
 variable "clusterName" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "mypsgitops-ekscluster"
+  default     = "mypsgitops-eksclusteraz"
 }
